@@ -7,10 +7,10 @@ html {
 }
 
 body {
-	background-color: #fdfdfd;
+	background-color: #E8E8D3;
 	height: 100%;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 1.5em;
+	font-family: 'EB Garamond', serif;
+	font-size: 1.7em;
 }
 
 img {
@@ -26,15 +26,19 @@ img {
 }
 
 #green-terminal {
-	color: #00ff00;
+	color: #e8e8d3;
+	width:60px;
+    height:60px;
+    margin-bottom:-5px;
+    margin-top:-5px;
 }
 
 .font-header {
-	font-family: 'Inconsolata', monospace;
+	font-family: 'Asul', sans-serif;
 }
 
 .font-paragraph {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'EB Garamond', serif;
 }
 
 nav {
@@ -46,7 +50,7 @@ nav {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'Concert One', cursive;
+	font-family: 'EB Garamond', serif;
 }
 
 #user-name {
@@ -57,11 +61,12 @@ h1,h2,h3,h4,h5,h6 {
 .user-description {
 	border-style: solid;
 	border-width: 5px;
-	border-color: #292929;
+	border-color: #E8E8D3;
 	margin-top: 20px;
 	margin-bottom: 1em;
 	padding: 15px;
-	font-size: initial;
+	font-family: 'Asul', sans-serif;
+	font-size: 1.5em;
 }
 
 .user-profile {
@@ -71,8 +76,8 @@ h1,h2,h3,h4,h5,h6 {
 .user-picture {
 	border-style: solid;
 	border-width: 5px;
-	border-color: #292929;
-	margin-top: 20px;
+	border-color: #E8E8D3;
+	margin-top: 40px;
 }
 
 i {
@@ -86,16 +91,18 @@ i {
 
 .post-date {
 	float: right;
+	font-family: 'EB Garamond', serif;
 }
 
 .post-header {
-	background-color: #F5F5F5;
+	background-color: #E8E8D3;
 	overflow: hidden;
 	padding: 0 5px 0 5px;
 }
 
 .post-summary, .post-content{
 	clear: both;
+
 }
 
 .post-summary {
@@ -129,7 +136,8 @@ i {
 }
 
 .footer {
-	background-color: #F5F5F5;
+	background-color: #151515;
+	color: #E8E8D3;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -152,4 +160,28 @@ div p {
 
 td {
 	margin: 0 20px 0 20px;
+}
+
+a:link {
+  color: #ba447c;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ba447c;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #985ba9;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #985ba9;
+  background-color: transparent;
+  text-decoration: underline;
 }
